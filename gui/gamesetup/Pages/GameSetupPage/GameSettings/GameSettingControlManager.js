@@ -32,9 +32,12 @@ class GameSettingControlManager
                     victoryCondition, this, getCategory(victoryCondition.Name), undefined, setupWindow);
 
         this.playerSettingControlManagers = Array.from(
-            new Array(g_GreatMaxPlayerCount),
+            new Array(g_GreatMaxPlayerCount ?? 20),
             (value, playerIndex) =>
                 new PlayerSettingControlManager(playerIndex, setupWindow));
+
+        // warn to see if this is called
+        warn("GameSettingControlManager.constructor");
     }
 
     getNextRow(name)

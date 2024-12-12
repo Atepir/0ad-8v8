@@ -2,10 +2,8 @@ GameSettingControls.PlayerCount = class PlayerCount extends GameSettingControlDr
     constructor(...args) {
         super(...args);
 
-        const maxPlayers = g_GreatMaxPlayerCount;
-
         this.values = Array.from(
-            new Array(maxPlayers),
+            new Array(g_GreatMaxPlayerCount),
             (v, i) => i + 1
         );
 

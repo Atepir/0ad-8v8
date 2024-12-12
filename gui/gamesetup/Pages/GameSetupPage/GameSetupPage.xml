@@ -29,7 +29,7 @@
 		</object>
 	</object>
 
-	<object name="centerPanel" size="0 0 100% 100%-60">
+	<object name="centerPanel" size="0 400 100% 100%-60">
 
 		<object name="centerLeftPanel" size="24 0 100% 100%">
 			<object size="0 346 100%-795-24 100%">

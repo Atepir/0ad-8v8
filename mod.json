@@ -1,0 +1,9 @@
+{
+	"name": "8v8",
+	"version": "0.0.26",
+	"label": "Enables games with up to 20 players on 0.A.D.",
+	"description": "Set up 5v5, 8v8 and 10v10 and enjoy the chaos!",
+	"ignoreInCompatibilityChecks": true,
+	"dependencies": ["0ad=0.0.26"],
+	"url": "https://github.com/atepir/8v8"
+}

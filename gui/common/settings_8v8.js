@@ -1,0 +1,1 @@
+let g_GreatMaxPlayerCount = 20;

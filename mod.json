@@ -5,5 +5,5 @@
 	"description": "Set up 5v5, 8v8 and 10v10 and enjoy the chaos!",
 	"ignoreInCompatibilityChecks": true,
 	"dependencies": ["0ad=0.0.26"],
-	"url": "https://github.com/atepir/8v8"
+	"url": "https://github.com/atepir/0ad-8v8"
 }

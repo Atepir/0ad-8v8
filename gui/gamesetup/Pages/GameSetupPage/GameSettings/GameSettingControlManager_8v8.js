@@ -1,12 +1,4 @@
 /**
- * Each property of this class is a class that inherits GameSettingControl and is
- * instantiated by the GameSettingControlManager.
- */
-class GameSettingControls
-{
-}
-
-/**
  * The GameSettingControlManager owns all GUI controls.
  */
 class GameSettingControlManager

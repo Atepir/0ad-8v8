@@ -1,7 +1,7 @@
 /**
  * The GameSettingControlManager owns all GUI controls.
  */
-class GameSettingControlManager
+SetupWindowPages.GameSettingControlManager = class 
 {
     constructor(setupWindow)
     {

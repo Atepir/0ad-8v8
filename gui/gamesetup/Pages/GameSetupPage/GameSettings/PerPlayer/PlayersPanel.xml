@@ -29,7 +29,7 @@
 	</object>
 
 	<object size="1 36 100%-1 100%">
-	<repeat count="6">
+	<repeat count="20">
 		<object name="playerFrame[n]" size="0 0 100% 32" hidden="true">
 
 			<object name="playerBackgroundColor[n]" type="image"/>
